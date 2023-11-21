@@ -1,0 +1,14 @@
+.main-layout {
+    &__navigation{
+        &__list {
+            display: flex;
+            list-style: none;
+            &__item{
+                color: turquoise;
+                &:not(:last-child){
+                    margin-right: 12px;
+                }
+            }
+        }
+    }
+}
